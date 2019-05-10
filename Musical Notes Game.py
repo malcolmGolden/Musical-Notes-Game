@@ -14,7 +14,7 @@ def random_note():
     print(next_note)
 
 
-    if user_input == note:
+    if user_input == next_note:
             print("Correct!")
     else:
         print("Try Again..")
